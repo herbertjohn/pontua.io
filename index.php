@@ -1,3 +1,19 @@
+<?php
+date_default_timezone_set('America/Sao_Paulo');
+
+require_once('src/PHPMailer.php');
+require_once('src/SMTP.php');
+require_once('src/Exception.php');
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+
+
+?>
+
+
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -58,7 +74,7 @@
   <div id="showcase">
     <div class="container showcase">
         <div class="full-width text-center showcase-caption mt-30">
-    			<h4>Somos Criativos</h4>
+          <h4>Somos Criativos</h4>
               <h1>Pontúa Digital<a href="https://api.whatsapp.com/send?phone=5565992237570"> <i class="fa fa-whatsapp"></i></a></h1>
                   <p>Soluções para o desenvolvimento de
 marcas, produtos e empresas.</p>
@@ -70,7 +86,7 @@ marcas, produtos e empresas.</p>
                         Iniciar
                       </a>
                 </div>
-    		</div>
+        </div>
       </div>
   </div>
 
@@ -151,27 +167,27 @@ e Marketing.
             
             <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
               <div class="folded-corner service_tab_1">
-        				<div class="text">
-        					<i class="fa fa-lightbulb-o fa-5x fa-icon-image" ></i>
-        							<h3 class="item-title"> Campanha publicitária</h3>
-        						<p>
-        							<br>
+                <div class="text">
+                  <i class="fa fa-lightbulb-o fa-5x fa-icon-image" ></i>
+                      <h3 class="item-title"> Campanha publicitária</h3>
+                    <p>
+                      <br>
 
-        					</p>
-        				</div>
-        			</div>
+                  </p>
+                </div>
+              </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
               <div class="folded-corner service_tab_1">
-        				<div class="text">
-        					<i class="fa fa-mobile fa-5x fa-icon-image"></i>
-        							<h3 class="item-title"> Gerenciamento de redes sociais</h3>
-        					<p>
-        						
+                <div class="text">
+                  <i class="fa fa-mobile fa-5x fa-icon-image"></i>
+                      <h3 class="item-title"> Gerenciamento de redes sociais</h3>
+                  <p>
+                    
 
-        					</p>
-        				</div>
-        			</div>
+                  </p>
+                </div>
+              </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
               <div class="folded-corner service_tab_1">
@@ -333,11 +349,11 @@ e Marketing.
 
             <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
               <!-- Starting of ajax contact form -->
-    <form class="contact__form" method="post" action="https://formspree.io/xlepojjp">
+    <form class="contact__form" method="post" action="msg.php">
       <!-- Element of the ajax contact form -->
       <div class="row">
           <div class="col-md-6 form-group">
-              <input name="name" type="text" class="form-control" placeholder="Nome" required>
+              <input name="nome" type="text" class="form-control" placeholder="Nome" required>
           </div>
           <div class="col-md-6 form-group">
               <input name="email" type="email" class="form-control" placeholder="Email" required>
@@ -346,13 +362,13 @@ e Marketing.
               <input name="phone" type="text" class="form-control" placeholder="Celular" required>
           </div>
           <div class="col-md-6 form-group">
-              <input name="subject" type="text" class="form-control" placeholder="Endereço"t required>
+              <input name="subject" type="text" class="form-control" placeholder="Assunto"t required>
           </div>
           <div class="col-12 form-group">
-              <textarea name="message" class="form-control" rows="3" placeholder="Mensagem" required></textarea>
+              <textarea name="mensagem" class="form-control" rows="3" placeholder="Mensagem" required></textarea>
           </div>
           <div class="col-12">
-              <input name="submit" type="submit" class="button-style" value="Enviar mensagem">
+              <input name="submit" onclick="funcao1()" type="submit" class="button-style" value="Enviar mensagem">
           </div>
       </div>
       
@@ -362,9 +378,40 @@ e Marketing.
   <!-- Starting of successful form message -->
       <div class="row">
           <div class="col-12">
-              <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                  Sua mensagem foi enviada com sucesso.
-              </div>
+              <?php 
+if((isset($_POST['email']) && !empty(trim($_POST['email']))) && (isset($_POST['mensagem']) && !empty(trim($_POST['mensagem'])))) {
+
+  $nome = !empty($_POST['nome']) ? $_POST['nome'] : 'Não informado';
+  $email = $_POST['email'];
+  $assunto = !empty($_POST['assunto']) ? utf8_decode($_POST['assunto']) : 'Não informado';
+  $mensagem = $_POST['mensagem'];
+  $data = date('d/m/Y H:i:s');
+
+  $mail = new PHPMailer();
+  $mail->isSMTP();
+  $mail->Host = 'smtp.gmail.com';
+  $mail->SMTPAuth = true;
+  $mail->Username = 'agenciapontua@gmail.com';
+  $mail->Password = 'comunicacao';
+  $mail->Port = 587;
+ 
+  $mail->setFrom('agenciapontua@gmail.com');
+  $mail->addAddress('agenciapontua@gmail.com');
+
+  $mail->isHTML(true);
+  $mail->Subject = $assunto;
+  $mail->Body = "Nome: {$nome}<br>
+           Email: {$email}<br>
+           Mensagem: {$mensagem}<br>
+           Data/hora: {$data}";
+
+  if($mail->send()) {
+    echo 'Email enviado com sucesso.';
+  } else {
+    echo 'Email não enviado.';
+  }
+} 
+               ?>
           </div>
       </div>
       <!-- Ending of successful form message -->
@@ -390,6 +437,10 @@ e Marketing.
     </div>
 
     <div class="curve curve-top curve-center"></div>
+
+  
+  
+
 </footer>
 
   <script src="./js/jquery.min.js"></script>
@@ -402,7 +453,7 @@ e Marketing.
   <script src="./js/masonry.pkgd.min.js"></script>
   <script src="./js/jquery.flexslider-min.js"></script>
   <script src="./js/classie.js"></script>
-	<script src="./js/helper.js"></script>
+  <script src="./js/helper.js"></script>
   <script src="./js/grid3d.js"></script>
   <script src="./js/script.js"></script>
 
