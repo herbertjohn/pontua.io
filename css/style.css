@@ -140,7 +140,7 @@ table {
      [ 02 Start Buttons ]
 -----------------------------------------------------------------*/
 .button-style {
-  background-color: #56a1c4;
+  background-color: #68A4C4;
   border: none;
   color: #ffffff;
   cursor: pointer;
@@ -424,68 +424,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #showcase {
-  height: 98vh;
-  background-image: linear-gradient(to right bottom,
-  rgba(50,139,207, 0.8), rgba(161,218,213, 0.8)), url(../img/showcasebg.jpg);
-  background-size: cover;
-  background-position: center;
-  margin-top: 5.6ems;
-  background-attachment:fixed;
-  clip-path: ellipse(150% 100% at 50% 0);
-  -webkit-clip-path: ellipse(150% 100% at 50% 0);
 }
-
-.showcase-caption {
-  position: relative;
-  text-align: center;
-  top: 200px;
-}
-
-.showcase-caption h4{
-  color: #ffffff;
-  font-size: 30px;
-}
-
-.showcase-caption h1{
-  color: #ffffff;
-  font-size: 50px;
-  font-weight: bold;
-}
-
-.showcase-caption p{
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 2.5;
-}
-
-.showcase-button {
-  margin-top: 30px;
-}
-
-
-@media (max-width: 705.98px) {
-  
-.showcase-caption {
-    position: relative;
-    text-align: center;
-    top: 130px;
-}
-
-.showcase-caption h1 {
-    color: #ffffff;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.features-caption h4::after {
-    display: none;
-}
-
-}
-/* ----------------------------------------------------------------
-     [ 05 End Showcase ]
------------------------------------------------------------------*/
-
 
 /* ----------------------------------------------------------------
      [ 06 Start Features ]
@@ -596,10 +535,10 @@ nav:before {
   color: #999;
   background: transparent;
   transition: all ease .5s;
-  border: 1px solid rgba(31,181,172,.9);
+  border: 1px solid rgba(104,164,196);
 }
 .folded-corner:hover{
-	background-color: rgba(31,181,172,.9);
+	background-color: rgba(104,164,196);
 }
 
 /*
@@ -637,7 +576,7 @@ nav:before {
 
 
 .fa-icon-image{
-	color: rgba(31,181,172,.9);
+	color: rgba(104,164,196);
 	display: inline-block;
     font-style: normal;
     font-variant: normal;
@@ -676,7 +615,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #teams {
-  background-color: #27a599;
+  background-color: #0b212d;
   width: 100%;
   position: relative;
   color: #ffffff;
@@ -1458,37 +1397,6 @@ iframe {
 /* ----------------------------------------------------------------
      [ 13 Start Footer ]
 -----------------------------------------------------------------*/
-footer {
-  padding: 80px 0;
-  background-color: #5cacc1;
-  -webkit-clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);
-  clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);
-}
-
-.footer__box {
-  padding-top: 150px;
-}
-
-footer .social a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  color: #fff;
-  font-size: 16px;
-  margin: 15px 5px;
-}
-footer .social a:hover {
-  color: #fff;
-}
-
-
-footer p {
-  color: #fff;
-  font-weight: 400;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
 
 
 
