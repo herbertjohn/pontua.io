@@ -16,7 +16,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="servicos.php">Serviços</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="portfolio.php">Portfólio</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="team.php">Team</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="blog.php">Blog</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Contato</a></li>
 
             </ul>
@@ -41,7 +40,7 @@
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
               Rua Capitão Ipotã- 255 <br>
               Pico do Amor - Cuiabá/MT<br>
-              United States <br><br>
+              <br><br>
              <i class="fa fa-phone" aria-hidden="true"></i>   (65) 9.9223-7570<br><br>
              <i class="fa fa-envelope" aria-hidden="true"></i>   agenciapontua@gmail.com<br>
             </p>

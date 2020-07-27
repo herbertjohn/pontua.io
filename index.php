@@ -7,7 +7,7 @@
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Bem vindo à <span>Pontúa Digital</span></h2>
           <p class="animate__animated animate__fadeInUp">Soluções inteligentes na hora certa para sua marca, marque mais um ponto!</p>
-          <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
+          <a href="contato.php" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
         </div>
       </div>
       <!-- Slide 2 -->
@@ -15,7 +15,7 @@
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Plano ideal para sua empresa</h2>
           <p class="animate__animated animate__fadeInUp">Com planos adaptaveis e dinâmicos para elevar o nível da sua marca perante aos concorrentes</p>
-          <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
+          <a href="contato.php" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
         </div>
       </div>
       <!-- Slide 3 -->
@@ -23,7 +23,7 @@
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Aplicação web na hora certa!</h2>
           <p class="animate__animated animate__fadeInUp">Complemente sua presença digital com eficiência, peça aplicações web, sites institucionais, sites para evento, manutenção e atualização de sites em geral, templates novos e modernos.</p>
-          <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
+          <a href="contato.php" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
         </div>
       </div>
 
@@ -56,7 +56,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
      </div>
           <div class="container" data-aos="fade-up">
             <div class="row">
-              <div class="col-sm bottom-space">
+              <div class="col-md-4 col-sm-12 bottom-space">
                     <div class="feature-box">
                         <i class="fa fa-image fa-5x fa-icon-image "></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">
@@ -67,7 +67,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         </p>
                     </div>
               </div>
-              <div class="col-sm bottom-space">
+              <div class="col-md-4 col-sm-12 bottom-space">
                     <div class="feature-box">
                         <i class="fa fa-5x fa-code fa-icon-image"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Sites</h3>
@@ -76,7 +76,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         </p><br>  
                     </div>
               </div>
-              <div class="col-sm bottom-space">
+              <div class="col-md-4 col-sm-12 bottom-space">
                     <div class="feature-box">
                         <i class="fa fa-lightbulb-o fa-5x fa-icon-image" ></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Social Media</h3>
@@ -85,60 +85,27 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         </p>
                     </div>
               </div>
+              <div class="col-md-4 col-sm-12 bottom-space">
+                    <div class="feature-box">
+                        <i class="fa fa-lightbulb-o fa-5x fa-icon-image" ></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Campanhas Publicitárias</h3>
+                        <p class="feature-box__text">
+                          Planejamento e execução de campanhas publicitárias eficiêntes aprovadas pelo cliente e com analise de metricas com insight para novas campanhas.
+                        </p>
+                    </div>
+              </div>
+              <div class="col-md-4 col-sm-12 bottom-space">
+                    <div class="feature-box">
+                        <i class="fa fa-lightbulb-o fa-5x fa-icon-image" ></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Assessoria de Marketing</h3>
+                        <p class="feature-box__text">
+                          Pesquisa de mercado e analise competitiva, técnicas de vendas que funciona, estratégia de criação de conteúdo, lançamento de produtos, estratégias de marketing e big-date.
+                        </p>
+                    </div>
+              </div>
             </div>
      </div>
     </div>
-  <!--================== Services section =====================-->
-  <div id="services">
-
-        <div class="container features" data-aos="fade-up">
-          <div class="row">
-            
-            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-lightbulb-o fa-5x fa-icon-image" ></i>
-                      <h3 class="item-title"> Campanha publicitária</h3>
-                    <p>
-                      <br>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-mobile fa-5x fa-icon-image"></i>
-                      <h3 class="item-title"> Gerenciamento de redes sociais</h3>
-                  <p><br>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-pencil   fa-5x fa-icon-image"></i>
-                      <h3 class="item-title">Logo + identidade visual</h3>
-                  <p>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-laptop fa-5x fa-icon-image"></i>
-                        <h3 class="item-title"> Web site</h3>
-                  <p>
-                    <br><br><br>
-                  </p>
-                </div>x'
-              </div>
-            </div>
-          </div>
-        </div>
-  </div>
 <?php include("propvend.php"); ?>
 <!-- ======= Portfolio Section ======= -->
 <?php include("layout/portfolio.php"); ?>
