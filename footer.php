@@ -14,7 +14,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="sobre.php">Sobre nós</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="servicos.php">Serviços</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="portfolio.php">Portfólio</a></li>
+         <!--      <li><i class="bx bx-chevron-right"></i> <a href="portfolio.php">Portfólio</a></li>     -->
               <li><i class="bx bx-chevron-right"></i> <a href="team.php">Team</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Contato</a></li>
 
@@ -24,12 +24,12 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nossos serviços</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Analista de Redes</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Branding</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Design Gráfico</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Assessoria de Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Analista de Redes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Branding</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Design Gráfico</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Assessoria de Marketing</a></li>
 
             </ul>
           </div>

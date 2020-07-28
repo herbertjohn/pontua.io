@@ -54,7 +54,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
 </p>
 <br>
      </div>
-          <div class="container" data-aos="fade-up">
+          <div class="container" data-aos="fade-up" id="services">
             <div class="row">
               <div class="col-md-4 col-sm-12 bottom-space">
                     <div class="feature-box">
@@ -87,7 +87,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
               </div>
               <div class="col-md-4 col-sm-12 bottom-space">
                     <div class="feature-box">
-                        <i class="fa fa-lightbulb-o fa-5x fa-icon-image" ></i>
+                        <i class="fa fa-bullhorn fa-5x fa-icon-image" ></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Campanhas Publicitárias</h3>
                         <p class="feature-box__text">
                           Planejamento e execução de campanhas publicitárias eficiêntes aprovadas pelo cliente e com analise de metricas com insight para novas campanhas.
@@ -96,7 +96,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
               </div>
               <div class="col-md-4 col-sm-12 bottom-space">
                     <div class="feature-box">
-                        <i class="fa fa-lightbulb-o fa-5x fa-icon-image" ></i>
+                        <i class="fa fa-cogs fa-5x fa-icon-image" ></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Assessoria de Marketing</h3>
                         <p class="feature-box__text">
                           Pesquisa de mercado e analise competitiva, técnicas de vendas que funciona, estratégia de criação de conteúdo, lançamento de produtos, estratégias de marketing e big-date.
@@ -108,7 +108,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
     </div>
 <?php include("propvend.php"); ?>
 <!-- ======= Portfolio Section ======= -->
-<?php include("layout/portfolio.php"); ?>
+
 <!--================== Team section =====================-->
   <div id="teams">
     <div class="container">
@@ -176,7 +176,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
       </div>
     </div>
   </div>
-<?php include("layout/blog.php"); ?>
+
 
 
  <!--================== Contact section =====================-->

@@ -44,8 +44,8 @@ awesome/4.7.0/css/font-awesome.min.css">
           <li><a class="nav-link" href="index.php">Home</a></li>
           <li><a class="nav-link" href="sobre.php">Quem somos</a></li>
           <li><a class="nav-link" href="servicos.php">Serviços</a></li>
-          <li><a class="nav-link" href="portfolio.php">Portfólio</a></li>
-          <li><a class="nav-link" href="blog.php">Blog</a></li>
+   <!--        <li><a class="nav-link" href="portfolio.php">Portfólio</a></li>
+         <li><a class="nav-link" href="blog.php">Blog</a></li>    -->
           <li><a class="nav-link" href="team.php">Team</a></li>
           <li><a class="nav-link" href="contato.php">Contato</a></li>
         </ul>

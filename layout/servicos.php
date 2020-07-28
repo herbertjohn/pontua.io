@@ -141,7 +141,7 @@
 
         <div class="row no-gutters">
 
-          <div class="col-lg-4 box">
+          <div class="col-lg-4 box"><img src="https://img.icons8.com/color/48/000000/silver-bars.png"/>
             <h3>Prata</h3>
             <h4>R$ 300,00<span>por mês</span></h4>
             <ul>
@@ -154,7 +154,8 @@
             <a href="contato.php" class="get-started-btn">Adquirir</a>
           </div>
 
-          <div class="col-lg-4 box featured">
+          <div class="col-lg-4 box featured"><i class="fa fa-diamond fa-3x" aria-hidden="true"></i>
+
             <h3>Diamante</h3>
             <h4>R$ 1.200,00<span>por mês</span></h4>
             <ul>
@@ -167,7 +168,7 @@
             <a href="contato.php" class="get-started-btn">Adquirir</a>
           </div>
 
-          <div class="col-lg-4 box">
+          <div class="col-lg-4 box"><img src="https://img.icons8.com/color/48/000000/gold-bars.png"/>
             <h3>Ouro</h3>
             <h4>R$ 800,00<span>por mês</span></h4>
             <ul>

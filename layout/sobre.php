@@ -67,12 +67,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Valores</a></h5>
-                <p class="card-text">• Responsabilidade
-• Compromisso
-• Inovação
-• Honestidade
-• Foco
-• Paixão pelo trabalho</p><br><br>
+                <p class="card-text">Responsabilidade, compromisso, inovação, honestidade, foco e paixão pelo trabalho.</p><br><br>
               </div>
             </div>
           </div>
