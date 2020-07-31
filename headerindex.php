@@ -53,9 +53,9 @@ awesome/4.7.0/css/font-awesome.min.css">
           <li><a class="nav-link" href="#showcase">Home</a></li>
           <li><a class="nav-link" href="#features">Quem somos</a></li>
           <li><a class="nav-link" href="#services">Serviços</a></li>
-     <!--      <li><a class="nav-link" href="#portfolio">Portfólio</a></li>
-     <li><a class="nav-link" href="#blog">Blog</a></li>    -->
-          <li><a class="nav-link" href="#teams">Team</a></li>
+     <!--      <li><a class="nav-link" href="#portfolio">Portfólio</a></li>         -->
+           <li><a class="nav-link" href="#blog">Blog</a></li>  
+          <li><a class="nav-link" href="#teams">Time</a></li>
           <li><a class="nav-link" href="#contact">Contato</a></li>
         </ul>
       </nav>

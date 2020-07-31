@@ -11,10 +11,11 @@
             <h4>Links úteis</h4>
             <ul>
 
-              <li><i class="bx bx-chevron-right"></i> <a href="#features">Sobre nós</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Serviços</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="sobre.php">Sobre nós</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="servicos.php">Serviços</a></li>
             <!--   <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfólio</a></li> -->
-              <li><i class="bx bx-chevron-right"></i> <a href="#teams">Team</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="team.php">Team</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blog.php">Blog</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Contato</a></li>
 
 

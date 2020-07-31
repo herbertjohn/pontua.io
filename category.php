@@ -7,7 +7,7 @@
           <h2>Blog</h2>
 
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="blog.php">Blog</a></li>
             <li>Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia reiciendis</li>
           </ol>
@@ -82,7 +82,7 @@
               <?php //echo $view_post_text; 
               echo substr($view_post_text, 0, 400) . "...";?>
             </p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            <a href="post.php?postid=<?= $view_post_id; ?>" class="btn btn-primary">Ler Mais &rarr;</a>
           </div>
           <?php 
                 $sql_select_users_article = "SELECT * FROM users WHERE id={$view_post_autor}";

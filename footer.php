@@ -16,6 +16,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="servicos.php">Serviços</a></li>
          <!--      <li><i class="bx bx-chevron-right"></i> <a href="portfolio.php">Portfólio</a></li>     -->
               <li><i class="bx bx-chevron-right"></i> <a href="team.php">Team</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blog.php">Blog</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Contato</a></li>
 
             </ul>

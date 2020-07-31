@@ -7,9 +7,9 @@
           <h2>Blog</h2>
 
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="blog.php">Blog</a></li>
-            <li>Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia reiciendis</li>
+            <li>Busca</li>
           </ol>
         </div>
       </div>
@@ -25,7 +25,7 @@
       <!-- Blog Entries Column -->
       <div class="col-md-8">
 
-        <h1 class="my-4">Search results:
+        <h1 class="my-4">Resultado Busca:
           <small></small>
         </h1>
         <?php 

@@ -105,8 +105,125 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
               </div>
             </div>
      </div>
+<div class="features-section-2">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm features-section-2-col-1 hover-effect">
+            </div>
+            <div class="col-sm features-section-2-col-2 ">
+              <div class="features-section-2-col-2__content">
+                <h2>Quanto mais alta tecnologia há no mundo, mais as pessoas anseiam por um atendimento com um toque pessoal. "John Naisbitt"</h2>
+                  <p>
+                    O fato é que a sociedade ama tecnologia, menos na hora que precisam resolver algum problema ou tirar alguma dúvida, ambos mais específicos.
+                  </p>
+                  <p>
+                    Queremos conversar com alguém que entenda do assunto e não um robô programado para listar respostas automáticas.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-<?php include("propvend.php"); ?>
+
+  <!--================== Services section =====================-->
+  <div id="services">
+
+        <div class="container features">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
+              <div class="folded-corner service_tab_1">
+                <div class="text">
+                  <i class="fa fa-image fa-5x fa-icon-image"></i>
+                        <h3 class="item-title"> Desing</h3>
+                  <p>
+                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
+              <div class="folded-corner service_tab_1">
+                <div class="text">
+                  <i class="fa fa-code fa-5x fa-icon-image" ></i>
+                      <h3 class="item-title"> Aplicativo</h3>
+                    <p>
+                      This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
+              <div class="folded-corner service_tab_1">
+                <div class="text">
+                  <i class="fa fa-bullhorn fa-5x fa-icon-image"></i>
+                      <h3 class="item-title"> Planejamento de Marketing</h3>
+                  <p>
+                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
+              <div class="folded-corner service_tab_1">
+                <div class="text">
+                  <i class="fa fa-diamond fa-5x fa-icon-image"></i>
+                      <h3 class="item-title"> Branding</h3>
+                  <p>
+                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
+                  </p>
+                </div>
+              </div>
+            </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
+              <div class="folded-corner service_tab_1">
+                <div class="text">
+                  <i class="fa fa-image fa-5x fa-icon-image"></i>
+                        <h3 class="item-title"> Produtora de Eventos</h3>
+                  <p>
+                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
+              <div class="folded-corner service_tab_1">
+                <div class="text">
+                  <i class="fa fa-cogs fa-5x fa-icon-image" ></i>
+                      <h3 class="item-title"> Assessoria de Marketing</h3>
+                    <p>
+                      This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
+              <div class="folded-corner service_tab_1">
+                <div class="text">
+                  <i class="fa fa-truck fa-5x fa-icon-image"></i>
+                      <h3 class="item-title"> Analista de Redes</h3>
+                  <p>
+                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
+              <div class="folded-corner service_tab_1">
+                <div class="text">
+                  <i class="fa fa-diamond fa-5x fa-icon-image"></i>
+                      <h3 class="item-title"> Edição de Vídos</h3>
+                  <p>
+                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+<br><br><br>
 <!-- ======= Portfolio Section ======= -->
 
 <!--================== Team section =====================-->
@@ -177,7 +294,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
     </div>
   </div>
 
-
+<?php include("layout/blog.php") ?>
 
  <!--================== Contact section =====================-->
 <div id="contact">

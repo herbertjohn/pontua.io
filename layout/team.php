@@ -15,7 +15,7 @@
               <div class="member-info">
                 <h4>Carol Prado</h4>
                 <span>Atendimento</span>
-                <p>Caroline será o seu primeiro contato com a Pontúa, para ela que vocÊ irá dizer seus problemas para nós solucionarmos.</p>
+                <p>Caroline será o seu primeiro contato com a Pontúa, para ela que você vai dizer os seus problemas para nós solucionarmos.</p>
               </div>
             </div>
           </div>
