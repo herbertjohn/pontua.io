@@ -347,7 +347,8 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
             </div>
             <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
               <!-- Starting of ajax contact form -->
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+<form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Digite pelo menos 4 caracteres" />
@@ -376,8 +377,8 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
           </div>
         </div>
   </div>
-      
-  
+
+
   </div>
    <!-- End team Section -->
   </main><!-- End #main -->
