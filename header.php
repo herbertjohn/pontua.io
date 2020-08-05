@@ -41,13 +41,15 @@ awesome/4.7.0/css/font-awesome.min.css">
       </div>
       <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
-          <li><a class="nav-link" href="index.php">Home</a></li>
-          <li><a class="nav-link" href="sobre.php">Quem somos</a></li>
-          <li><a class="nav-link" href="servicos.php">Serviços</a></li>
+          <li><a class="nav-link" href="index.php?page=index">Home</a></li>
+          <li><a class="nav-link" href="sobre.php?page=sobre">Quem somos</a></li>
+          <li><a class="nav-link" href="servicos.php?page=servicos">Serviços</a></li>
    <!--        <li><a class="nav-link" href="portfolio.php">Portfólio</a></li>      -->
-         <li><a class="nav-link" href="blog.php">Blog</a></li>    
-          <li><a class="nav-link" href="team.php">Time</a></li>
-          <li><a class="nav-link" href="contato.php">Contato</a></li>
+        <li><a class="nav-link" href="index.php?page=#clientes">Clientes</a></li> 
+
+         <li><a class="nav-link" href="blog.php?page=blog">Blog</a></li>    
+          <li><a class="nav-link" href="team.php?page=team">Team</a></li>
+          <li><a class="nav-link" href="contato.php?page=contato">Contato</a></li>
         </ul>
       </nav>
     </div>

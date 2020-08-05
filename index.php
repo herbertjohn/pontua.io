@@ -7,7 +7,7 @@
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Bem vindo à <span>Pontúa Digital</span></h2>
           <p class="animate__animated animate__fadeInUp">Soluções inteligentes na hora certa para sua marca, marque mais um ponto!</p>
-          <a href="contato.php" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
+          <a href="contato.php?page=contato.php" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
         </div>
       </div>
       <!-- Slide 2 -->
@@ -15,15 +15,15 @@
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Plano ideal para sua empresa</h2>
           <p class="animate__animated animate__fadeInUp">Com planos adaptaveis e dinâmicos para elevar o nível da sua marca perante aos concorrentes</p>
-          <a href="contato.php" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
+          <a href="contato.php?page=contato.php" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
         </div>
       </div>
       <!-- Slide 3 -->
       <div class="carousel-item">
-        <div class="carousel-container">
+       <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Aplicação web na hora certa!</h2>
           <p class="animate__animated animate__fadeInUp">Complemente sua presença digital com eficiência, peça aplicações web, sites institucionais, sites para evento, manutenção e atualização de sites em geral, templates novos e modernos.</p>
-          <a href="contato.php" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
+          <a href="contato.php?page=contato.php" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
         </div>
       </div>
 
@@ -42,258 +42,57 @@
   <!-- End Hero -->
 
   <main id="main">
-  <!--================== Features section =====================-->
-  <div id="features">
-     <div class="text-center features-caption features" data-aos="fade-up">
-                <h3>Agência de Comunicação, Marketing e Assessoria!</h3>
-                  <h4>Pacotes de serviços completos, ideais para sua marca.</h4>
-                  <p >Nosso diferencial, está na nossa capacidade criativa para construção de campanhas
-publicitárias, no gerenciamento de redes sociais, construção e manutenção de sites.
-Somos uma empresa comprometida em criar soluções para o desenvolvimento da
-marca de nossos clientes, destacando-a perante aos concorrentes do seu seguimento.
-</p>
-<br>
-     </div>
-          <div class="container" data-aos="fade-up" id="services">
-            <div class="row">
-              <div class="col-md-4 col-sm-12 bottom-space">
-                    <div class="feature-box">
-                        <i class="fa fa-image fa-5x fa-icon-image "></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">
-                          Design Criativo
-                        </h3>
-                        <p class="feature-box__text">
-                          Criação de logo, identidade visual, papelaria, manipulação de imagem, edição de vídeos, gifs, e postagens em geral.
-                        </p>
-                    </div>
-              </div>
-              <div class="col-md-4 col-sm-12 bottom-space">
-                    <div class="feature-box">
-                        <i class="fa fa-5x fa-code fa-icon-image"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Sites</h3>
-                        <p class="feature-box__text">
-                         Sites institucional, atualização de site, sites para eventos, landing pages e otimização SEO.  
-                        </p><br>  
-                    </div>
-              </div>
-              <div class="col-md-4 col-sm-12 bottom-space">
-                    <div class="feature-box">
-                        <i class="fa fa-lightbulb-o fa-5x fa-icon-image" ></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Social Media</h3>
-                        <p class="feature-box__text">
-                          Planejamento de de marketing, gerenciamento de redes sociais, criação de postagens, redação e direção de arte.
-                        </p>
-                    </div>
-              </div>
-              <div class="col-md-4 col-sm-12 bottom-space">
-                    <div class="feature-box">
-                        <i class="fa fa-bullhorn fa-5x fa-icon-image" ></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Campanhas Publicitárias</h3>
-                        <p class="feature-box__text">
-                          Planejamento e execução de campanhas publicitárias eficiêntes aprovadas pelo cliente e com analise de metricas com insight para novas campanhas.
-                        </p>
-                    </div>
-              </div>
-              <div class="col-md-4 col-sm-12 bottom-space">
-                    <div class="feature-box">
-                        <i class="fa fa-cogs fa-5x fa-icon-image" ></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Assessoria de Marketing</h3>
-                        <p class="feature-box__text">
-                          Pesquisa de mercado e analise competitiva, técnicas de vendas que funciona, estratégia de criação de conteúdo, lançamento de produtos, estratégias de marketing e big-date.
-                        </p>
-                    </div>
-              </div>
-            </div>
-     </div>
-<div class="features-section-2">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm features-section-2-col-1 hover-effect">
-            </div>
-            <div class="col-sm features-section-2-col-2 ">
-              <div class="features-section-2-col-2__content">
-                <h2>Quanto mais alta tecnologia há no mundo, mais as pessoas anseiam por um atendimento com um toque pessoal. "John Naisbitt"</h2>
-                  <p>
-                    O fato é que a sociedade ama tecnologia, menos na hora que precisam resolver algum problema ou tirar alguma dúvida, ambos mais específicos.
-                  </p>
-                  <p>
-                    Queremos conversar com alguém que entenda do assunto e não um robô programado para listar respostas automáticas.
-                  </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<?php include("layout/servicos_index.php") ?>
 
-  <!--================== Services section =====================-->
-  <div id="services">
 
-        <div class="container features">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-image fa-5x fa-icon-image"></i>
-                        <h3 class="item-title"> Desing</h3>
-                  <p>
-                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-code fa-5x fa-icon-image" ></i>
-                      <h3 class="item-title"> Aplicativo</h3>
-                    <p>
-                      This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-bullhorn fa-5x fa-icon-image"></i>
-                      <h3 class="item-title"> Planejamento de Marketing</h3>
-                  <p>
-                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-diamond fa-5x fa-icon-image"></i>
-                      <h3 class="item-title"> Branding</h3>
-                  <p>
-                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
-                  </p>
-                </div>
-              </div>
-            </div>
+<?php include("layout/equipe.php") ?>
 
-                        <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-image fa-5x fa-icon-image"></i>
-                        <h3 class="item-title"> Produtora de Eventos</h3>
-                  <p>
-                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-cogs fa-5x fa-icon-image" ></i>
-                      <h3 class="item-title"> Assessoria de Marketing</h3>
-                    <p>
-                      This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-truck fa-5x fa-icon-image"></i>
-                      <h3 class="item-title"> Analista de Redes</h3>
-                  <p>
-                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 bottom-space">
-              <div class="folded-corner service_tab_1">
-                <div class="text">
-                  <i class="fa fa-diamond fa-5x fa-icon-image"></i>
-                      <h3 class="item-title"> Edição de Vídos</h3>
-                  <p>
-                    This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides,
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  </div>
-<br><br><br>
-<!-- ======= Portfolio Section ======= -->
 
-<!--================== Team section =====================-->
-  <div id="teams">
-    <div class="container">
+    <!-- ======= Supporters Section ======= -->
+    <section id="supporters" class="section-with-bg">
+
+      <div class="container" data-aos="fade-up" id="clientes">
       <div class=" text-center col-md-8 offset-md-2 col-sm-12 section-title">
-        <!-- <span>Heros Behind The Company</span> -->
-        <h2 class="teams-heading">Equipe</h2>
-        <p class="heading_space">
-        </p>
+        <h2 class="teams-heading">Clientes</h2>
       </div>
-      <div class="row">
-          <div class="col-sm">
-            <div class="teams-item-box">
-                <div class="teams-item">
-                    <div class="profile-image"><img src="https://instagram.fcgb2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/106483116_209244743607524_7652387063061895798_n.jpg?_nc_ht=instagram.fcgb2-1.fna.fbcdn.net&_nc_ohc=tpFJ7SK9wp0AX_v-FU0&oh=4b765fcff52735fbdc3e924bed5648b2&oe=5F37C29F" alt="Jen Image" /></div>
-                    <div>
-                      <h3>Carol Prado</h3>
-                      <h5>Atendimento</h5>
-                      <p>
-                      </p>
-                      <div class="icons">
-                          <a href="https://www.facebook.com/carolpraddo"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                          <a href="https://www.instagram.com/carolinepraddo/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                  </div>
+
+        <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
+
+
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo"><a href="layout/clientes/e-tech.io">
+              <img src="img/logo_e-tech.png" class="img-fluid" alt="E-Tech">
+            </div></a>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo"><a href="layout/clientes/curadoriapecuaria.io">
+              <img src="img/logo_curadoria_pecuaria.png" class="img-fluid" alt="Curadoria Pecuária">
+            </div></a>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo"><a href="layout/clientes/fazendabeijoroubado.io">
+              <img src="img/logo_fazenda_beijo_roubado.png" class="img-fluid" alt="">
             </div>
           </div>
-          <div class="col-sm">
-              <div class="teams-item-box">
-                  <div class="teams-item">
-                      <div class="profile-image"><img src="https://instagram.fcgb2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/101019994_1099897337052331_8407284764070903808_n.jpg?_nc_ht=instagram.fcgb2-1.fna.fbcdn.net&_nc_ohc=rnLm-OcfZ0wAX9oDlA8&oh=6a39860d2f471ede94d00c13dba1e17c&oe=5F35DF8B" alt="Mike image" /></div>
-                      <div>
-                        <h3>John Herbert</h3>
-                        <h5>Analista de Mídias Sociais</h5>
-                        <p>
-                        </p>
-                        <div class="icons">
-                            <a href="https://www.facebook.com/john.herbert.3701/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/_john_herbert/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://twitter.com/HherbertJ"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/herbertjohn1/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="https://www.behance.net/herbertjohn"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-          </div>
-          <div class="col-sm">
-              <div class="teams-item-box">
-                  <div class="teams-item">
-                      <div class="profile-image"><img src="https://instagram.fcgb2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/21827093_1767084890003519_6168801986113175552_n.jpg?_nc_ht=instagram.fcgb2-1.fna.fbcdn.net&_nc_ohc=-U3gG_exxu8AX81hbqf&oh=bfb6e3f242f43f4b83e78966cdeedddc&oe=5F34DB64" alt="Nic image" /></div>
-                      <div>
-                        <h3>Nildo Roquer</h3>
-                        <h5>Diretor de Artes</h5>
-                        <p>
-                        </p>
-                        <div class="icons">
-                            <a href="https://www.facebook.com/nildo.rocker"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/nildoroquer/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                          </div>
-                      </div>
-                    </div>
-              </div>
-          </div>
-      </div>
-    </div>
-  </div>
 
+
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo"><a href="layout/clientes/e-tech_e-commerce">
+              <img src="img/logo_e-tech.png" class="img-fluid" alt="E-Tech">
+            </div></a>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+    </section><!-- End Sponsors Section -->
 <?php include("layout/blog.php") ?>
 
  <!--================== Contact section =====================-->
@@ -382,4 +181,4 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
   </div>
    <!-- End team Section -->
   </main><!-- End #main -->
-<?php include("footerindex.php"); ?>
+<?php include("footer.php"); ?>

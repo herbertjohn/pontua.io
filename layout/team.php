@@ -6,7 +6,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/carol_prado.jpeg" class="img-fluid" alt="">
                 <div class="social">
                   <a href="https://www.facebook.com/carolpraddo"><i class="icofont-facebook"></i></a>
                   <a href="https://www.instagram.com/carolinepraddo/"><i class="icofont-instagram"></i></a>
@@ -23,7 +23,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/john_herbert.jpeg" class="img-fluid" alt="">
                 <div class="social">
                   <a href="https://twitter.com/HherbertJ"><i class="icofont-twitter"></i></a>
                   <a href="https://www.facebook.com/john.herbert.3701/"><i class="icofont-facebook"></i></a>
@@ -42,7 +42,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/nildo.jpeg" class="img-fluid" alt="">
                 <div class="social">
                   <a href="https://www.facebook.com/nildo.rocker"><i class="icofont-facebook"></i></a>
                   <a href="https://www.instagram.com/nildoroquer/"><i class="icofont-instagram"></i></a>
@@ -52,6 +52,24 @@
                 <h4>Nildo Roquer</h4>
                 <span>Diretor de Arte</span>
                 <p>Todas as criações tem que ser aprovadas por ele.</p>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/andre_mendes.jpeg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://twitter.com/fullynotanalien"><i class="icofont-twitter"></i></a>
+                  <a href="https://www.facebook.com/andre.mendesc"><i class="icofont-facebook"></i></a>
+                  <a href="https://www.instagram.com/dremendesc/"><i class="icofont-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>André Mendes</h4>
+                <span>Desenvolvedor</span>
+                <p>Aplicações WEB com technologias de ponta.</p>
               </div>
             </div>
           </div>

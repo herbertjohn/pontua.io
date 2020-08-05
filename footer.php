@@ -12,12 +12,12 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Links úteis</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="sobre.php">Sobre nós</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="servicos.php">Serviços</a></li>
-         <!--      <li><i class="bx bx-chevron-right"></i> <a href="portfolio.php">Portfólio</a></li>     -->
-              <li><i class="bx bx-chevron-right"></i> <a href="team.php">Team</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="blog.php">Blog</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Contato</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="sobre.php?page=sobre.php">Sobre nós</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="servicos.php?page=servicos.php">Serviços</a></li>
+         <!--      <li><i class="bx bx-chevron-right"></i> <a href="portfolio.php?page=portfolio.php">Portfólio</a></li>     -->
+              <li><i class="bx bx-chevron-right"></i> <a href="team.php?page=team.php">Team</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blog.php?page=blog.php">Blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php?page=contato.php">Contato</a></li>
 
             </ul>
           </div>
@@ -25,12 +25,12 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nossos serviços</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Analista de Redes</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Branding</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Design Gráfico</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contato.php">Assessoria de Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php?page=contato.php">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php?page=contato.php">Analista de Redes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php?page=contato.php">Branding</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php?page=contato.php">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php?page=contato.php">Design Gráfico</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.php?page=contato.php">Assessoria de Marketing</a></li>
 
             </ul>
           </div>
@@ -86,6 +86,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script src="js/script.js"></script>
 
 </body>
 
