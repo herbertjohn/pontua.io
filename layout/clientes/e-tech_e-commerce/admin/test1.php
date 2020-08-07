@@ -5,7 +5,7 @@ ini_set('display_errors', true);
 
 header('Content-Type: text/html; charset=utf-8');
 
-$pdo = new PDO('mysql:dbname=virtuablog;host=localhost', 'root', 'senha_da_nasa',
+$pdo = new PDO('mysql:dbname=virtuablog;host=localhost', 'root', 'herbert',
                array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
 
 if (!empty($_POST['text'])) {
