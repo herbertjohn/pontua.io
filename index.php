@@ -44,49 +44,10 @@
   <main id="main">
 <?php include("layout/servicos_index.php") ?>
 
-
 <?php include("layout/equipe.php") ?>
 
+<?php include("layout/clientes.php") ?>
 
-    <!-- ======= Supporters Section ======= -->
-    <section id="supporters" class="section-with-bg">
-
-      <div class="container" data-aos="fade-up" id="clientes">
-      <div class=" text-center col-md-8 offset-md-2 col-sm-12 section-title">
-        <h2 class="teams-heading">Clientes</h2>
-      </div>
-
-        <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
-
-
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo"><a href="http://curadoriapecuaria.com.br">
-              <img src="img/logo_curadoria_pecuaria.png" class="img-fluid" alt="Curadoria Pecuária">
-            </div></a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo"><a href="layout/clientes/fazendabeijoroubado.io">
-              <img src="img/logo_fazenda_beijo_roubado.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo"><a href="layout/clientes/e-tech_e-commerce">
-              <img src="img/logo_e-tech.png" class="img-fluid" alt="E-Tech">
-            </div></a>
-          </div>
-
-
-
-        </div>
-
-      </div>
-
-    </section><!-- End Sponsors Section -->
 <?php include("layout/blog.php") ?>
 
  <!--================== Contact section =====================-->
@@ -141,7 +102,9 @@
             <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
               <!-- Starting of ajax contact form -->
 
-<form action="forms/contact.php" method="post" role="form" class="php-email-form">
+<form id="my-form"
+  action="https://formspree.io/xlepojjp"
+  method="POST" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Digite pelo menos 4 caracteres" />
@@ -165,7 +128,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
               </div>
-              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+              <div class="text-center"><button type="submit" id="my-form-button">Enviar Mensagem</button></div>
             </form>
           </div>
         </div>
@@ -176,3 +139,55 @@
    <!-- End team Section -->
   </main><!-- End #main -->
 <?php include("footer.php"); ?>
+
+
+
+<!-- Place this script at the end of the body tag -->
+
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("my-form");
+    var button = document.getElementById("my-form-button");
+    var status = document.getElementById("my-form-status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Thanks!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>

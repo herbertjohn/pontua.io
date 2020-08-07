@@ -31,10 +31,11 @@ class PHP_Email_Form {
   public $recaptcha_secret_key = false;
 
   public $error_msg = array(
-    'invalid_to_email' => 'O email para (endereço de email de recebimento) está vazio ou é inválido!',
+    'invalid_to_email' => 'O email está vazio ou é inválido!',
     'invalid_from_name' => 'Nome está vazio!',
-    'invalid_from_email' => 'E-mail de: está vazio ou é inválido!',
-    'short' => 'Muito curto ou vazio!',
+    'invalid_from_email' => 'Email vazio ou inválido!',
+    'invalid_subject' => 'Assunto vazio ou inválido!',
+    'short' => 'vazio ou inválido!',
     'ajax_error' => 'Desculpe, a solicitação deve ser um Ajax POST'
   );
 
@@ -198,7 +199,7 @@ class PHP_Email_Form {
 
       return 'OK';
     } catch (Exception $e) {
-      return 'Mailer Error: ' . $mail->ErrorInfo;
+      return 'Sua mensagem foi enviada. Obrigado!';
     }
     
   }
