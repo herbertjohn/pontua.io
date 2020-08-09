@@ -23,7 +23,7 @@
             <div class="icon-box icon-box-green">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4 class="title"><a href="contato.php?page=contato.php">Analista de Redes Sociais</a></h4>
-              <p class="description">Planejamento de de marketing, gerenciamento de redes sociais, criação de postagens, redação e direção de arte.</p>
+              <p class="description">Planejamento de marketing, gerenciamento de redes sociais, postagens, redação e direção de arte.</p>
             </div>
           </div>
 

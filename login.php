@@ -1,7 +1,4 @@
-
 <?php include "layout/head.php"; ?>
-
-
 <div class="login-form">
 <!--<form action="/examples/actions/confirmation.php" method="post">
         <h2 class="text-center">Sign in</h2>  --> 

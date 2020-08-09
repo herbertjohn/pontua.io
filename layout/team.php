@@ -33,8 +33,8 @@
               </div>
               <div class="member-info">
                 <h4>John Herbert</h4>
-                <span>Analista de Redes</span>
-                <p>Gerencia medias sociais.</p>
+                <span>Web Master</span>
+                <p>Criador de soluções digitais eficientes.</p>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@
               <div class="member-info">
                 <h4>Nildo Roquer</h4>
                 <span>Diretor de Arte</span>
-                <p>Todas as criações tem que ser aprovadas por ele.</p>
+                <p>Artes de qualidade.</p>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@
               <div class="member-info">
                 <h4>André Mendes</h4>
                 <span>Desenvolvedor</span>
-                <p>Aplicações WEB com technologias de ponta.</p>
+                <p>Aplicações WEB com technologia de ponta, segura e alta disponibilidade.</p>
               </div>
             </div>
           </div>

@@ -1,11 +1,11 @@
 <!-- ======= Blog Section ======= -->
-    <section class="padd-sectio">
+    <section class="padd-sectio"  id="blog">
       <div class="container" data-aos="fade-up"><br>
-        <div class="section-title text-center" id="blog">
+        <div class="section-title text-center">
             <h2>Últimas do Blog</h2>
           <p class="separator">Uma postagem por semana.</p>
         </div>
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="row" data-aos="fade-up">
 <?php 
   include "admin/db_connection.php";
 ?>
@@ -65,5 +65,11 @@
              ?>
       <?php } ?>
         </div>
+
+    <div class="button box" style="text-align: center;">
+      <br><br>
+      <a href="blog.php?page=blog.php" class="get-started-btn">Mais Postagens</a>
+    </div>
+
       </div>
     </section><!-- End Blog Section -->

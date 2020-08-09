@@ -25,6 +25,20 @@ a:hover {
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
 }
+.button .get-started-btn {
+  background: #68A4C4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button .get-started-btn:hover {
+  background: #85b6cf;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -712,6 +726,102 @@ section {
   border-color: #2282ff;
 }
 
+
+/* ----------------------------------------------------------------
+     [ 07 Start Services ]
+-----------------------------------------------------------------*/
+
+#services {
+  padding-top: 100px;
+}
+
+.services { 
+  padding-top: 100px;
+  margin-bottom: 1.5rem;
+  background: #fff;
+  padding-top: 6rem;
+  margin-bottom: 2rem;
+}
+.folded-corner:hover .text{
+	visibility: visible;
+	color: #ffffff;;
+}
+.Services-tab{
+	margin-top:20px;
+}
+
+/*
+  nav link items
+*/
+.folded-corner{
+  padding: 25px 25px;
+  position: relative;
+  font-size: 90%;
+  text-decoration: none;
+  color: #999;
+  background: transparent;
+  transition: all ease .5s;
+  border: 1px solid rgba(104,164,196);
+}
+.folded-corner:hover{
+	background-color: rgba(104,164,196);
+}
+
+/*
+  paper fold corner
+*/
+
+.folded-corner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 0px 0px 0;
+  border-color: #ddd #000;
+  transition: all ease .3s;
+}
+
+/*
+  on li hover make paper fold larger
+*/
+.folded-corner:hover:before {
+	background-color: #D00003;
+  border-width: 0 50px 50px 0;
+  border-color: #eee #000;
+
+}
+
+.service_tab_1{
+	background-color: #ffffff;
+}
+.service_tab_1:hover .fa-icon-image{
+    color: #ffffff;
+    transform: rotate(360deg) scale(1.2);
+}
+
+
+.fa-icon-image{
+	color: rgba(104,164,196);
+	display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    text-rendering: auto;
+    transition: all .65s linear 0s;
+    text-align: center;
+    transition: all 1s cubic-bezier(.99,.82,.11,1.41);
+}
+
+/* ----------------------------------------------------------------
+     [ End Services ]
+-----------------------------------------------------------------*/
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -874,37 +984,6 @@ section {
     transform: scale(1, 1);
     opacity: 0;
   }
-}
-
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
-.features .row + .row {
-  margin-top: 100px;
-}
-
-.features h3 {
-  font-weight: 400;
-  font-size: 24px;
-}
-
-.features ul {
-  list-style: none;
-  padding: 0;
-}
-
-.features ul li {
-  padding-bottom: 10px;
-}
-
-.features ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #68A4C4;
-}
-
-.features p:last-child {
-  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -1502,6 +1581,136 @@ section {
   transition: bottom ease-in-out 0.4s;
 }
 
+/* ----------------------------------------------------------------
+     [ 09 Start Team ]
+-----------------------------------------------------------------*/
+
+#teams {
+  background-color: #0b212d;
+  width: 100%;
+  position: relative;
+  color: #ffffff;
+}
+
+div#teams {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.teams-heading span {
+  font-size: 1.25rem;
+  display: block;
+  text-transform: capitalize;
+  color: #00bcd4;
+  text-align: center;
+}
+
+.teams-heading h1 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.heading_space {
+    margin-bottom: 4.125rem;
+}
+
+.teams-item {
+  background-color: #ffffff;
+  height: 400px;
+}
+
+.teams-items-img img {
+  display: block;
+  width: 100%;
+}
+
+.teams-item {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #2B2B2B;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.teams-item * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.teams-item .profile-image {
+  padding: 15% 10% 0;
+}
+
+.teams-item .profile-image img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  border-radius: 50%;
+  max-width: 40%;
+}
+
+.teams-item div {
+  padding: 5% 10% 15%;
+}
+
+.teams-item h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+}
+
+.teams-item h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.teams-item .icons i {
+  color: #999;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1.5em;
+}
+
+.teams-item .icons i:hover {
+  color: #555;
+}
+
+.teams-item .icons i a {
+  text-decoration: none;
+}
+
+@media (max-width: 705.98px) {
+  .teams-item-box {
+    margin: 0 auto;
+    width: 300px;
+  }
+ }
+
+/* ----------------------------------------------------------------
+     [ End Team ]
+-----------------------------------------------------------------*/
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1641,6 +1850,79 @@ section {
     transform: rotate(360deg);
   }
 }
+
+/* ----------------------------------------------------------------
+     [ 12 Start Contact ]
+-----------------------------------------------------------------*/
+.contact {
+  padding-top: -30px;
+}
+.container .map {
+  width: 100%;
+  height: 200px;
+}
+
+iframe {
+  width: 100%;
+  border: none;
+}
+.contact form {
+  margin: 3rem;
+}
+
+.contact-icon {
+  text-align: center;
+  font-size: 35px;
+}
+.text-blue {
+  color: rgb(0, 171, 201);
+}
+
+.contact-heading {
+  margin-top: 2rem;
+}
+
+.form-input-style {
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 1px solid #ddd;
+  box-shadow: none;
+  background-color: #ddd;
+  font-size: 13px;
+  height: 45px;
+}
+
+
+.form-input-style-message {
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 1px solid #ddd;
+  box-shadow: none;
+  background-color: #ddd;
+  font-size: 13px;
+}
+
+@media (max-width: 705.98px) {
+  
+  .contact p {
+    text-align: center;
+  }
+
+ }
+
+ /* ----------------------------------------------------------------
+     [ End Contact ]
+-----------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Map
@@ -2384,4 +2666,141 @@ section {
 
 #supporters img {
   transition: all 0.4s ease-in-out;
+}
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .row + .row {
+  margin-top: 100px;
+}
+
+.features h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features ul li {
+  padding-bottom: 10px;
+}
+
+.features ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #68A4C4;
+}
+
+.features p:last-child {
+  margin-bottom: 0;
+}
+
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .3s;
+}
+
+.feature-box__icon {
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+  }
+
+/* ----------------------------------------------------------------
+     [ 05 Start Showcase ]
+-----------------------------------------------------------------*/
+
+.features-caption h4::after {
+    display: none;
+}
+
+}
+/* ----------------------------------------------------------------
+     [ 05 End Showcase ]
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+     [ 06 Start Features ]
+-----------------------------------------------------------------*/
+
+#features {
+    background: #fff;
+    padding-top: 70px;
+    margin-bottom: 80px;
+}
+
+.intro h4:after {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: #2AAFC0;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 30px);
+}
+
+.features-caption h3{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.features-caption h4{
+ font-size: 30px;
+}
+
+
+.features-caption p {
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.features-row-2 {
+  margin-top: 40px;
+}
+
+.features-section-2 {
+  margin-top: 80px;
+}
+
+.features-section-2-col-1 {
+  background-image: url(../img/hero.jpg);
+  background-position: center;
+  height: 500px;
+}
+
+.features-section-2-col-2 {
+  background-color: #f7f7f7;
+  height: 500px;
+  padding: 30px;
+}
+
+.features-section-2-col-2__content {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: auto;
+  height: 100%;
+  padding: 100px 10%;
+  -webkit-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
 }

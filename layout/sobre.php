@@ -17,7 +17,7 @@
               <li><i class="icofont-check-circled"></i> Analise das metrias e insight e para novas campanhas.</li>
             </ul>
             <p>
-              Estamos comprometivos em criar soluções inteligentes para desenvolvimento de marcas no meio digital, estamos preparados para atender as necessidades dos nossos clientes com equié multidiciplinar dinânica e a disposição para atende-los.
+              Estamos comprometivos em criar soluções inteligentes para desenvolvimento de marcas no meio digital e atender as necessidades dos nossos clientes com soluções eficientes e modernas, equipe multidiciplinar dinânica e a disposição para atende-los.
             </p>
           </div>
         </div>
@@ -36,7 +36,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Missão </a></h5>
-                <p class="card-text">Criar soluções práticas e eficientes em campanhas publicitárias e de gerenciamento de redes sociais para nossos clientes.</p>
+                <p class="card-text">Criar soluções práticas e eficientes em campanhas publicitárias e de gerenciamento de redes sociais.</p>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Plano</a></h5>
-                <p class="card-text">Ofereser serviços acessíveis e de qualidade conquistando a confiança do cliente para assim construir parceirias fortes e consolidades trazendo benefícios para ambas as partes.</p>
+                <p class="card-text">Ofereser serviços acessíveis e de qualidade conquistando a confiança do cliente para assim construir parceirias fortes e duradouras trazendo benefícios para ambas as partes.</p>
               </div>
             </div>
 
@@ -57,7 +57,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Visão</a></h5>
-                <p class="card-text">Tornar-nos uma agência conceituada no mercado de assessoria, publicidade, propaganda e Marketing.</p><br><br>
+                <p class="card-text">Tornar-nos uma agência conceituada no mercado de Marketing Digital.</p><br><br>
               </div>
             </div>
           </div>

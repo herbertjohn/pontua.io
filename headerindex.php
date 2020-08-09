@@ -20,13 +20,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="css/bootstrap3.min.css"> -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/cubeportfolio.min.css">
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-
 awesome/4.7.0/css/font-awesome.min.css">
   <!-- Template Main CSS File -->

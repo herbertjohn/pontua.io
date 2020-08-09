@@ -16,6 +16,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="servicos.php?page=servicos.php">Serviços</a></li>
          <!--      <li><i class="bx bx-chevron-right"></i> <a href="portfolio.php?page=portfolio.php">Portfólio</a></li>     -->
               <li><i class="bx bx-chevron-right"></i> <a href="team.php?page=team.php">Team</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php?page=#clientes">Clientes</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="blog.php?page=blog.php">Blog</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="contato.php?page=contato.php">Contato</a></li>
 
@@ -86,8 +87,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
-  <script src="js/script.js"></script>
 
 </body>
 

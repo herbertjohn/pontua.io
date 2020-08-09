@@ -19,7 +19,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                           Design Criativo
                         </h3>
                         <p class="feature-box__text">
-                          Criação de logo, identidade visual, papelaria, manipulação de imagem, edição de vídeos, gifs, e postagens em geral.
+                          Criação de marca e identidade visual, identidade visual, papelaria, manipulação de imagem, edição de vídeos, gifs, postagens em geral, UX e UI Design, web design e video e motion design.
                         </p>
                     </div>
               </div>
@@ -28,7 +28,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         <i class="fa fa-5x fa-code fa-icon-image"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Sites</h3>
                         <p class="feature-box__text">
-                         Sites institucional, atualização de site, sites para eventos, landing pages e otimização SEO.  
+                         Aplicativos móveis, sites institucional, atualização de site, sites para eventos, e-commerce, landing pages, otimização SEO, sistemas corporativos e hospedagem de site.
                         </p><br>  
                     </div>
               </div>
@@ -37,16 +37,20 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         <i class="fa fa-lightbulb-o fa-5x fa-icon-image" ></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Social Media</h3>
                         <p class="feature-box__text">
-                          Planejamento de de marketing, gerenciamento de redes sociais, criação de postagens, redação e direção de arte.
+                          Planejamento de de marketing, gerenciamento de redes sociais, criação de postagens, redação e direção de arte, marketing orgânico.
                         </p>
                     </div>
               </div>
+            </div></div>
+            <br>
+          <div class="container" data-aos="fade-up">
+            <div class="row">
               <div class="col-md-4 col-sm-12 bottom-space">
                     <div class="feature-box">
                         <i class="fa fa-bullhorn fa-5x fa-icon-image" ></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Campanhas Publicitárias</h3>
                         <p class="feature-box__text">
-                          Planejamento e execução de campanhas publicitárias eficiêntes aprovadas pelo cliente e com analise de metricas com insight para novas campanhas.
+                          Planejamento e execução de campanhas publicitárias eficiêntes aprovadas pelo cliente e com analise de metricas e insight para novas campanhas.
                         </p>
                     </div>
               </div>
@@ -55,11 +59,25 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         <i class="fa fa-cogs fa-5x fa-icon-image" ></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Assessoria de Marketing</h3>
                         <p class="feature-box__text">
-                          Pesquisa de mercado e analise competitiva, técnicas de vendas que funciona, estratégia de criação de conteúdo, lançamento de produtos, estratégias de marketing e big-date.
+                          Pesquisa de mercado e analise competitiva, técnicas de vendas que funciona, estratégia de criação de conteúdo, lançamento de produtos, inbound marketing, estratégias de marketing e big-date.
+                        </p>
+                    </div>
+              </div>
+              <div class="col-md-4 col-sm-12 bottom-space">
+                    <div class="feature-box">
+                        <i class="fa fa-cloud-upload fa-5x fa-icon-image" ></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Assessoria de AWS</h3>
+                        <p class="feature-box__text">
+                          Migração de banco de dados para nuvem, desenvolvimento de aplicações. 
                         </p>
                     </div>
               </div>
             </div>
+    <div class="button box" style="text-align: center;">
+      <br><br>
+      <a href="contato.php?page=contato.php" class="get-started-btn">Saber Mais</a>
+    </div>
+
      </div>
 <div class="features-section-2">
         <div class="container-fluid">
@@ -95,7 +113,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                   <i class="fa fa-image fa-5x fa-icon-image"></i>
                         <h3 class="item-title"> Desing</h3>
                   <p>
-                    Illustrações de diversas maneiras, des de design de marcas até illustrações em aquarela. 
+                    Illustrações de diversas vertentes, do design tradicional de marcas até illustrações em aquarela. 
                   </p>
                 </div>
               </div>
@@ -106,7 +124,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                   <i class="fa fa-code fa-5x fa-icon-image" ></i>
                       <h3 class="item-title"> Aplicativo</h3>
                     <p>
-                      Aplicações web para 
+                      Desenvolvimento de aplicativos móveis seguro, com estrutura sólida, alta performace e alta disponibilidade. 
                   </p>
                 </div>
               </div>
@@ -117,7 +135,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                   <i class="fa fa-bullhorn fa-5x fa-icon-image"></i>
                       <h3 class="item-title"> Planejamento de Marketing</h3>
                   <p>
-                    Tudo começa no planejamento, sem ele seria como se estive-se dando um tiro no escuro, na Pontúa o planejamento é criado e aprovado junto com o cliente para não ter erro na hora de entregar a mensagem e obter os resultados. 
+                    Criação e execução de planejamentos de campanhas de marketing e publicidade com entrega de resultados e métricas. 
                   </p>
                 </div>
               </div>
@@ -180,7 +198,11 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
             </div>
           </div>
         </div>
-        <a href="contato.php?page=contato.php" class="get-started-btn">Adquirir</a>
+
+    <div class="button box" style="text-align: center;">
+      <br><br>
+      <a href="contato.php?page=contato.php" class="get-started-btn">Fazer Orçamento</a>
+    </div>
+    
   </div>
 <br><br><br>
-<!-- ======= Portfolio Section ======= -->
