@@ -7,6 +7,6 @@ files:
 hooks:
     BeforeInstall:
     - location: stop_server.sh
-      timeout: 300
+      timeout: 30
       runas: root
 
