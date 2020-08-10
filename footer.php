@@ -17,7 +17,7 @@
          <!--      <li><i class="bx bx-chevron-right"></i> <a href="portfolio.php?page=portfolio.php">Portfólio</a></li>     -->
               <li><i class="bx bx-chevron-right"></i> <a href="team.php?page=team.php">Team</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="index.php?page=#clientes">Clientes</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="blog.php?page=blog.php">Blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blog.php?page=1">Blog</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="contato.php?page=contato.php">Contato</a></li>
 
             </ul>

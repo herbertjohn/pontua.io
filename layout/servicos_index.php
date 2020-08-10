@@ -29,7 +29,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         <h3 class="heading-tertiary u-margin-bottom-small">Sites</h3>
                         <p class="feature-box__text">
                          Aplicativos móveis, sites institucional, atualização de site, sites para eventos, e-commerce, landing pages, otimização SEO, sistemas corporativos e hospedagem de site.
-                        </p><br>  
+                        </p>
                     </div>
               </div>
               <div class="col-md-4 col-sm-12 bottom-space">
@@ -38,7 +38,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         <h3 class="heading-tertiary u-margin-bottom-small">Social Media</h3>
                         <p class="feature-box__text">
                           Planejamento de de marketing, gerenciamento de redes sociais, criação de postagens, redação e direção de arte, marketing orgânico.
-                        </p>
+                        </p> <br>
                     </div>
               </div>
             </div></div>
@@ -51,7 +51,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         <h3 class="heading-tertiary u-margin-bottom-small">Campanhas Publicitárias</h3>
                         <p class="feature-box__text">
                           Planejamento e execução de campanhas publicitárias eficiêntes aprovadas pelo cliente e com analise de metricas e insight para novas campanhas.
-                        </p>
+                        </p><br>
                     </div>
               </div>
               <div class="col-md-4 col-sm-12 bottom-space">
@@ -69,7 +69,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         <h3 class="heading-tertiary u-margin-bottom-small">Assessoria de AWS</h3>
                         <p class="feature-box__text">
                           Migração de banco de dados para nuvem, desenvolvimento de aplicações. 
-                        </p>
+		</p><br><br><br><br>
                     </div>
               </div>
             </div>

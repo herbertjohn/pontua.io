@@ -14,12 +14,6 @@
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo"><a href="https://fazendabeijoroubado.netlify.app/">
-              <img src="assets/img/clientes/logo_fazenda_beijo_roubado.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo"><a href="layout/clientes/e-tech_e-commerce">
               <img src="assets/img/clientes/logo_e-tech.png" class="img-fluid" alt="E-Tech">
             </div></a>

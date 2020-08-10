@@ -59,7 +59,7 @@
               </div>
 
               <h2 class="entry-title">
-               <a href="">    <?php echo $view_post_title; ?> </a>
+               <a href="post.php?postid=<?= $view_post_id; ?>">    <?php echo $view_post_title; ?> </a>
               </h2>
 
               <div class="entry-meta">

@@ -67,9 +67,6 @@ echo <<<EOT
                   <i class="fa fa-user"></i>
                   </a></div>
                     $logout_link
-					<a class="responsive-toggle" href="#">
-						<i class="fas fa-bars"></i>
-					</a>
                 </div>
 
         </header>
