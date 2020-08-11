@@ -36,7 +36,7 @@ echo <<<EOT
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,minimum-scale=1 user-scalable=no">
 		<title>$title</title>
-        <link rel="icon" type="image/png" href="favicon.png">
+
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
         <link rel="stylesheet" href="assets/css/main.css" />

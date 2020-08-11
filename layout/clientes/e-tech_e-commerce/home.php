@@ -12,7 +12,7 @@ $recently_added_products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
                             <?=template_header('E-Tech')?>
 								<!-- Banner -->
-								<section id="banner">
+        <link rel="icon" type="image/png" href="favicon.png">								<section id="banner">
 																			
 			
               

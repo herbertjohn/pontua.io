@@ -17,7 +17,7 @@
               <li><i class="icofont-check-circled"></i> Analise das metrias e insight e para novas campanhas.</li>
             </ul>
             <p>
-              Estamos comprometivos em criar soluções inteligentes para desenvolvimento de marcas no meio digital e atender as necessidades dos nossos clientes com soluções eficientes e modernas, equipe multidiciplinar dinânica e a disposição para atende-los.
+              Estamos comprometidos em criar soluções inteligentes para desenvolvimento de marcas no meio digital e atender as necessidades dos nossos clientes com soluções eficientes e modernas, equipe multidisciplinar dinânica e a disposição para atende-los.
             </p>
           </div>
         </div>
@@ -46,7 +46,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Plano</a></h5>
-                <p class="card-text">Ofereser serviços acessíveis e de qualidade conquistando a confiança do cliente para assim construir parceirias fortes e duradouras trazendo benefícios para ambas as partes.</p>
+                <p class="card-text">Oferecer serviços acessíveis e de qualidade conquistando a confiança do cliente para assim construir parcerias fortes e duradouras trazendo benefícios para ambas as partes.</p>
               </div>
             </div>
 

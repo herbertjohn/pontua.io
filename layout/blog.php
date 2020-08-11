@@ -38,21 +38,19 @@
                   $view_post_priority = $rowpost['post_priority'];
              ?>
           <div class="col-md-6 col-lg-4 bottom-space" style="border: 1">
-            <div class="block-blog text-left ">
+	    <div class="block-blog text-left ">
+		<div class="content-blog">
               <a href="post.php?postid=<?= $view_post_id; ?>">
                 <img class="card-img-top" src="admin/images/blog/<?php  echo $view_post_image; ?>" alt="Card image cap">
               </a>
-              <div class="content-blog">
                 <h4><a href="post.php?postid=<?= $view_post_id; ?>"><?php echo $view_post_title; ?></a></h4>
                 <span> <?php echo $view_post_date; ?>
-                  
+
                 </span>
                 <a class="pull-right readmore" href="post.php?postid=<?= $view_post_id; ?>">ler mais</a>
-                <br><br><br><br><br>
               </div>
             </div>
           </div>
-          <br>
          <?php 
                 $sql_select_users_article = "SELECT * FROM users WHERE id={$view_post_autor}";
                 $result_sql_select_users_article = mysqli_query($dbconnection, $sql_select_users_article);

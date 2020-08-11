@@ -14,7 +14,7 @@
       <div class="carousel-item">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Plano ideal para sua empresa</h2>
-          <p class="animate__animated animate__fadeInUp">Com planos adaptaveis e dinâmicos para elevar o nível da sua marca perante aos concorrentes</p>
+          <p class="animate__animated animate__fadeInUp">Com planos adaptáveis e dinâmicos para elevar o nível da sua marca.</p>
           <a href="contato.php?page=contato.php" class="btn-get-started animate__animated animate__fadeInUp">Saber mais</a>
         </div>
       </div>

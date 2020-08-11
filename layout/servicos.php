@@ -55,13 +55,13 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-fingerprint"></i></div>
               <h4 class="title"><a href="contato.php?page=contato.php">Branding</a></h4>
-              <p class="description">Quer criar uma marca e não sabe por onde começa? vem pra Pontúa que juntos colocamos e tiramos essa idéia do papel...</p>
+              <p class="description">Quer criar uma marca e não sabe por onde começar? vem para Pontúa que juntos tiramos essa ideia do papel...</p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-gift"></i></div>
               <h4 class="title"><a href="contato.php?page=contato.php">WEB</a></h4>
-              <p class="description">Sua marca não sabe amsi pra onde ir e vocÊ não tem tempo pra disseminar essa idéia? a Pontúa resolve isso pra vocÊ!</p>
+              <p class="description">Sua marca não sabe mais para onde ir e vocÊ não tem tempo para disseminar essa idéia? A Pontúa resolve!</p>
             </div>
 
           </div>
