@@ -2,7 +2,7 @@
 class DBController {
 	private $host = "localhost";
 	private $user = "root";
-	private $password = "herbert";
+	private $password = "senha_da_nasa";
 	private $database = "virtuablog";
 	private $conn;
 	
