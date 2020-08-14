@@ -3,7 +3,6 @@
       <div class="container" data-aos="fade-up"><br>
         <div class="section-title text-center">
             <h2>Últimas do Blog</h2>
-          <p class="separator">Uma postagem por semana.</p>
         </div>
         <div class="row" data-aos="fade-up">
 <?php 
