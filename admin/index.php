@@ -13,11 +13,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dashboard
-        <small>Control panel</small>
+        Painel de Controle
+        <small>Pontúa Digital</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="active">Dashboard</li>
       </ol>
     </section>
@@ -122,6 +122,41 @@
           </div>
         </div>
         <!-- ./col -->
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-purple">
+
+            <div class="inner">
+              <h3><?php echo mysqli_num_rows($query_contacts);?></h3>
+
+              <p>Contact Messages</p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <a href="inbox.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-orange">
+
+            <div class="inner">
+              <h3><?php echo mysqli_num_rows($query_subscribers);?></h3>
+
+              <p>Subscribers</p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-bell"></i>
+            </div>
+            <a href="subscribers.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+
       </div>
       <!-- /.row -->
 

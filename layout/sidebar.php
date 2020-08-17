@@ -23,15 +23,25 @@
             }
           ?>
          <div>
-            <div class="sidebar">
+
+
         <!-- Search Widget -->
-        <h3 class="sidebar-title">Search</h3>
-              <div class="sidebar-item search-form">
-                <form action="search.php">
-                  <input type="text">
-                  <button type="submit"><i class="icofont-search"></i></button>
-                </form>
-              </div><!-- End sidebar search formn-->
+        
+        <div class="sidebar">
+          <h3 class="sidebar-title">Pesquisa</h3>
+          <div class="sidebar-item search-form">
+            <form action="search.php" method="post">
+            <div class="input-group">
+              <input type="text" name="search_text" placeholder="Pesquisar por...">
+              <span class="input-group-btn">
+                 <button class="btn btn-secondary" type="submit" name="search"><i class="icofont-search"></i></button>
+              </span>
+            </div>
+            </form>
+          </div>
+     
+
+              <!-- End sidebar search formn-->
  <h3 class="sidebar-title">Categories</h3>
               <div class="sidebar-item categories">
                 <ul class="list-unstyled mb-0">

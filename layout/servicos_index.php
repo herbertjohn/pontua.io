@@ -86,13 +86,11 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
             </div>
             <div class="col-sm features-section-2-col-2 ">
               <div class="features-section-2-col-2__content">
-                <h2>Reserve um tempo pra fazer o que você gosta e deixe a sua empresa nas mãos de especialistas em Marketing Digital.</h2>
+                <h3>Reserve um tempo para fazer o que você gosta e deixe a sua empresa nas mãos de especialistas em Marketing Digital.</h3>
                   <p>
                     Tire suas ideias do papel e coloque-as em pratica, na Pontúa você encontra proficionais qualificados para divulgar sua marca e aumentar suas vendas.
                   </p>
-                  <p>
-                    Soluções digitais eficientes de forma ágil e barata.
-                  </p>
+                  
               </div>
             </div>
           </div>
@@ -104,6 +102,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
   <div id="services">
       <div class=" text-center col-md-8 offset-md-2 col-sm-12 section-title">
         <h2 class="teams-heading">Serviços</h2>
+        <p>Soluções digitais eficientes de forma ágil e barata.</p>
       </div>
         <div class="container features">
           <div class="row">

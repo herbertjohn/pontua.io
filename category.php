@@ -1,29 +1,5 @@
 <?php include("header.php");  ?>
     <!-- ======= Blog Section ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Blog</h2>
-
-          <ol>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="blog.php">Blog</a></li>
-            <li>Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia reiciendis</li>
-          </ol>
-        </div>
-      </div>
-    </section><!-- End Blog Section -->
-
-
-
-<!-- Page Content -->
-  <div class="container">
-
-    <div class="row">
-
-      <!-- Blog Entries Column -->
-      <div class="col-md-8">
         <?php 
         if (isset($_GET['catid'])) 
         {
@@ -49,6 +25,27 @@
         }
 
          ?>
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Blog</h2>
+          <ol>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><?php echo $view_cat_title; ?></li>
+          </ol>
+        </div>
+      </div>
+    </section><!-- End Blog Section -->
+
+<!-- Page Content -->
+    <section class="blog" data-aos="fade-up" data-aos-easing="ease-in-out">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
 
         <h1 class="my-4"><?php echo $view_cat_title; ?>
           <!-- <small>Secondary Text</small>-->
@@ -74,42 +71,42 @@
                   $view_post_priority = $rowpost['post_priority'];
              ?>
         <!-- Blog Post -->
-        <div class="card mb-4">
+<article class="entry">
+        <div class="entry-img">
           <img class="card-img-top" src="admin/images/blog/<?php  echo $view_post_image; ?>" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title"><?php echo $view_post_title; ?></h2>
-            <p class="card-text">
+        </div>
+          <div class="">
+            <a href="post.php?postid=<?= $view_post_id; ?>">
+            <h2 class="card-title"> <?php echo $view_post_title; ?></h2></a>
+              <div class="entry-meta">
+                <ul>
+
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> 
+                    <?php echo $view_post_date; ?>
+                  </li>
+                 </ul>
+              </div>
+               <div class="entry-content">
+                <p class="card-text">
               <?php //echo $view_post_text; 
               echo substr($view_post_text, 0, 400) . "...";?>
             </p>
-            <a href="post.php?postid=<?= $view_post_id; ?>" class="btn btn-primary">Ler Mais &rarr;</a>
-          </div>
-          <?php 
-                $sql_select_users_article = "SELECT * FROM users WHERE id={$view_post_autor}";
-                $result_sql_select_users_article = mysqli_query($dbconnection, $sql_select_users_article);
-                while ($rowusers_article = mysqli_fetch_assoc($result_sql_select_users_article))
-                {
-                  $view_users_id = $rowusers_article['id'];
-                  $view_users_name = $rowusers_article['name'];
-                  $view_users_image = $rowusers_article['image'];
-                } 
-             ?>
-          <div class="card-footer text-muted">
-            <img src="admin/images/users/<?php echo $view_users_image; ?>" class="zoom3" alt="User Image" width="50" align="left" hspace="5">
-            By <a href="#"><?php echo $view_users_name; ?></a> <br>Web developer <a href="#">VirtuaPHP</a>
-            | <?php echo $view_post_date; ?>
-          </div>
-        </div>
+                <div class="read-more">
+<a href="post.php?postid=<?= $view_post_id; ?>" class="btn btn-primary">Ler mais &rarr;</a>
+                </div>
+              </div>
+</article>
       <?php
        }
 
        if ($post_counter_for_category==0) {
-         echo "<h1>Sorry. No posts in this category!</h1>";
+         echo "<h1>Não há postagens nessa categoria!</h1>";
        }
        ?>
 
 
         <!-- Pagination -->
+<div class="blog-pagination">
         <ul class="pagination justify-content-center mb-4">
           <li class="page-item">
             <?php 
@@ -139,8 +136,8 @@
           </li>
         </ul>
 
-      </div>
-
+</div>
+</div>
       <!-- Sidebar Widgets Column -->
       <?php include "layout/sidebar.php"; ?>
 
@@ -151,6 +148,6 @@
   <!-- /.container -->
 
 
-
+</section>
 
     <?php include("footer.php");  ?>

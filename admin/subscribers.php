@@ -16,11 +16,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dashboard
-        <small>Control panel</small>
+        Painel de Controle
+        <small>Pontúa Digital</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="active">Dashboard</li>
       </ol>
     </section>
@@ -30,7 +30,16 @@
       <!-- Default box -->
       <div class="box">
         <div class="box-header with-border">
-
+<br>
+          <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
+                    title="Collapse">
+              <i class="fa fa-minus"></i></button>
+            <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+              <i class="fa fa-times"></i></button>
+          </div>
+        </div>
+        <div class="box-body">
 
 <?php
     
@@ -58,7 +67,7 @@
 
                 <!-- /row -->
 
-                                <table id="example23" class="display nowrap" cellspacing="0" width="100%">
+                                <table id="example23" class="table table-hover" cellspacing="0" width="100%">
 
                                     <?php 
 
@@ -69,15 +78,15 @@
 
                                                     echo '
                                                     <thead>
-                                                    <tr>
+                                                    <tr class="info">
                                                         <th>email</th>
-                                                        <th>date</th>
+                                                        <th>data</th>
                                                     </tr>
                                                 </thead>
                                                 <tfoot>
                                                     <tr>
                                                         <th>email</th>
-                                                        <th>date</th>
+                                                        <th>data</th>
                                                     </tr>
                                                 </tfoot>
                                                 <tbody>
@@ -90,7 +99,7 @@
                                     echo '
                                     
 
-                                        <tr>
+                                        <tr class="success">
                                             <td>'.$row["email"].'</td>
                                             <td>'.$row["date"].'</td>
                                         </tr>
@@ -111,7 +120,7 @@
         <!-- /.box-footer-->
       </div>
       <!-- /.box -->
-    </section>
+    </section></div>
     <!-- /.content -->
      <!-- Modal add new category -->
       <?php include "layout/modal/add_new_category.php" ?>

@@ -11,7 +11,7 @@
           <div class="col-sm">
             <div class="teams-item-box">
                 <div class="teams-item">
-                    <div class="profile-image"><img src="https://instagram.fcgb2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/106483116_209244743607524_7652387063061895798_n.jpg?_nc_ht=instagram.fcgb2-1.fna.fbcdn.net&_nc_ohc=tpFJ7SK9wp0AX_v-FU0&oh=4b765fcff52735fbdc3e924bed5648b2&oe=5F37C29F" alt="Carol_Prado" /></div>
+                    <div class="profile-image"><img src="https://instagram.fcgb1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/117224750_2791094414469970_7841802869415118160_n.jpg?_nc_ht=instagram.fcgb1-1.fna.fbcdn.net&_nc_ohc=syx0LZITOFsAX_N8e7x&oh=ba509c15be8f0ead4f745ea85200cae4&oe=5F64CDE3" alt="Carol_Prado" /></div>
                     <div>
                       <h3>Carol Prado</h3>
                       <h5>Atendimento</h5>

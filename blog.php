@@ -18,7 +18,7 @@
           echo 
           '<div class="alert alert-success" >
                           <a href="#" class="close" data-dismiss="alert" aria-label="close"></a>
-                         <strong>SUBSCRIBED!! </strong><p> Obrigado por se inscreve. Vamos mantê-lo informado sobre as tendências de Marketing Digital.</p>
+                         <strong>Inscrição Enviada!!! </strong><p> Obrigado por se inscreve. Vamos mantê-lo informado sobre as tendências de Marketing Digital.</p>
                     </div>'
           ;
         }

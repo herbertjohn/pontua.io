@@ -16,11 +16,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dashboard
-        <small>Control panel</small>
+        Painel de Controle
+        <small>Pontúa Digital</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="active">Dashboard</li>
       </ol>
     </section>
@@ -30,7 +30,16 @@
       <!-- Default box -->
       <div class="box">
         <div class="box-header with-border">
-
+<br>
+          <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
+                    title="Collapse">
+              <i class="fa fa-minus"></i></button>
+            <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+              <i class="fa fa-times"></i></button>
+          </div>
+        </div>
+        <div class="box-body">
 
    <?php
 
@@ -69,10 +78,13 @@
                                 echo
                                 '<div class="col-lg-12 col-md-9 col-sm-8 col-xs-12 mail_listing">
                                     <div class="media m-b-30 p-t-20">
+                                    <table class="table table-hover">
+                                    <tr class="info"><td>
                                         <a class="pull-left" href="#"></a>
-                                        <div class="media-body"> <span class="media-meta pull-right">'.$row["date"].'</span>
+                                        <div> <span class="media-meta pull-right">'.$row["date"].'</span>
                                             <h4 class="text-danger m-0">'.$row["names"].'</h4> <small class="text-muted">Email: '.$row["email"].'</small> </div>
-                                    </div>
+                                    </div></th></tr></table>
+                                    <br>
                                     <p>
                                         '.$row["message"].'
                                     </p>
@@ -112,7 +124,7 @@
         <!-- /.box-footer-->
       </div>
       <!-- /.box -->
-    </section>
+    </section></div>
     <!-- /.content -->
      <!-- Modal add new category -->
       <?php include "layout/modal/add_new_category.php" ?>
