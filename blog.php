@@ -13,7 +13,24 @@
 
       </div>
     </section><!-- End Blog Section -->
-
+  <?php
+        if (isset($_GET["subscribed"])) {
+          echo 
+          '<div class="alert alert-success" >
+                          <a href="#" class="close" data-dismiss="alert" aria-label="close"></a>
+                         <strong>SUBSCRIBED!! </strong><p> Obrigado por se inscreve. Vamos mantê-lo informado sobre as tendências de Marketing Digital.</p>
+                    </div>'
+          ;
+        }
+        elseif (isset($_GET["fail"])) {
+          echo 
+          '<div class="alert alert-danger" >
+                          <a href="#" class="close" data-dismiss="alert" aria-label="close"></a>
+                         <strong>Ooops!! </strong><p> Parece que você já está inscrito em nossa lista de e-mails :) </p>
+                    </div>'
+          ;
+        }
+      ?>  
     <!-- ======= Blog Section ======= -->
     <section class="blog" data-aos="fade-up" data-aos-easing="ease-in-out">
       <div class="container">

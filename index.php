@@ -65,8 +65,9 @@
             <p>Cadastre-se e receba notícias sobre Marketing Digital!</p>
           </div>
           <div class="col-lg-6">
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+            <form action="functions/subscribe.php" method="post">
+              <input type="email" name="email" required="">
+              <input type="submit" value="Inscrever-se" name="submit">
             </form>
           </div>
         </div>
@@ -111,29 +112,27 @@
 
           <div class="col-lg-5 col-md-8">
             <div class="form">
-              <form id="my-form" action="https://formspree.io/xlepojjp" method="POST" role="form" class="php-email-form">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Digite pelo menos 4 caracteres" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Por favor digite um email válido" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Digite pelo menos 8 caracteres do assunto" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escreva algo para nós" placeholder="Mensagem"></textarea>
-                  <div class="validate"></div>
-                </div>
-                <div class="mb-3">
-                  <div class="loading">Loading</div>
-                  <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
-                </div>
-                <div class="text-center"><button id="my-form-button" type="submit">Enviar mensagem</button></div>
-              </form>
+            
+
+          <form action="functions/contact.php" method="post" class="contato">
+
+            <div class="form-group">
+            <input type="text" name="names" placeholder="Nome..." required="" class="form-control">
+          </div>
+
+            <div class="form-group">
+            <input type="email" name="email" placeholder="Email..." required="" class="form-control">
+          </div>
+
+            <div class="form-group">
+            <textarea placeholder="Mensagem..." name="message" class="form-control"></textarea>
+          </div>
+    <div class="button box" style="text-align: center;">
+            <input type="submit" name="submit" value="Enviar Mensagem" class="get-started-btn">
+    </div>
+          </form>
+
+
             </div>
           </div>
 
@@ -168,7 +167,7 @@
     }
 
     function error() {
-      status.innerHTML = "Oops! There was a problem.";
+      status.innerHTML = "Oops! Há um problema.";
     }
 
     // handle the form submission event

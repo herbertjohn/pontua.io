@@ -5,7 +5,7 @@ define('db_host', 'localhost');
 // Database username
 define('db_user', 'root');
 // Database password
-define('db_pass', 'senha_da_nasa');
+define('db_pass', 'herbert');
 // Database name
 define('db_name', 'shoppingcart_advanced');
 

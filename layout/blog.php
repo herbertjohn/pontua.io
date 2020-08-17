@@ -65,7 +65,7 @@
 
     <div class="button box" style="text-align: center;">
       <br><br>
-      <a href="blog.php?page=blog.php" class="get-started-btn">Mais Postagens</a>
+      <a href="blog.php?page=1" class="get-started-btn">Mais Postagens</a>
     </div>
 
       </div>

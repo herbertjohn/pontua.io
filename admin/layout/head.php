@@ -1,14 +1,14 @@
 <?php 
 if (!isset($_SESSION['type']))
 {
-  header("Location: ../index.php");
+  header("Location: ../login.php");
 }
 
 if (isset($_SESSION['type']))
   {
    if ($_SESSION['type'] !=='1')
     {
-      header("Location: ../index.php");
+      header("Location: ../login.php");
     }
  }
 

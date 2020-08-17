@@ -18,17 +18,28 @@
         
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <i class="fa fa-dashboard"></i> <span>Blog</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="category_admin.php"><i class="fa fa-server"></i></i> Category</a></li>
-            <li><a href="post_admin.php"><i class="fa fa-file"></i> Post</a></li>
-            <li><a href="users_admin.php"><i class="fa fa-users"></i> Users</a></li>
-            <li><a href="comment_admin.php"><i class="fa fa-comments"></i> Comments</a></li>
+            <li><a href="category_admin.php"><i class="fa fa-server"></i></i> Categoria</a></li>
+            <li><a href="post_admin.php"><i class="fa fa-file"></i> Postagens</a></li>
+            <li><a href="users_admin.php"><i class="fa fa-users"></i> Usuários</a></li>
+            <li><a href="comment_admin.php"><i class="fa fa-comments"></i> Comentários</a></li>
           </ul>
+
+        </li>
+        <li>
+          <a href="subscribers.php">
+            <i class="fa fa-bell"></i> <span>Newsletter</span>
+          </a>
+        </li>
+        <li>
+          <a href="inbox.php">
+            <i class="fa fa-envelope"></i> <span>Contatos</span>
+          </a>
         </li>
         
       </ul>
