@@ -6,7 +6,7 @@
 
         $db['db_host'] = 'localhost';
         $db['db_user'] = 'root';
-        $db['db_pass'] = 'senha_da_nasa';
+        $db['db_pass'] = 'herbert';
         $db['db_name'] = 'virtuablog';
 
       foreach($db as $key=>$value){
@@ -19,7 +19,7 @@
       }
 
       try{
-          $db = new PDO('mysql:dbhost=localhost;dbname=Company;charset=utf8','root','senha_da_nasa');
+          $db = new PDO('mysql:dbhost=localhost;dbname=Company;charset=utf8','root','herbert');
 
 
       }

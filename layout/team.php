@@ -39,22 +39,6 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/nildo.jpeg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="https://www.facebook.com/nildo.rocker"><i class="icofont-facebook"></i></a>
-                  <a href="https://www.instagram.com/nildoroquer/"><i class="icofont-instagram"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Nildo Roquer</h4>
-                <span>Diretor de Arte</span>
-                <p>Artes de qualidade.</p>
-              </div>
-            </div>
-          </div>
 
            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
@@ -69,7 +53,7 @@
               <div class="member-info">
                 <h4>André Mendes</h4>
                 <span>Desenvolvedor</span>
-                <p>Aplicações WEB com technologia de ponta, segura e alta disponibilidade.</p>
+                <p>Aplicações WEB com technologia de ponta, segura e com alta disponibilidade.</p>
               </div>
             </div>
           </div>

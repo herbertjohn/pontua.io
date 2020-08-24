@@ -3,10 +3,9 @@
      <div class="text-center features-caption features" data-aos="fade-up">
                 <h3>Agência de Comunicação, Marketing e Assessoria!</h3>
                   <h4>Pacotes de serviços completos, ideais para sua marca.</h4>
-                  <p >Nosso diferencial, está na nossa capacidade criativa para construção de campanhas
-publicitárias, no gerenciamento de redes sociais, construção e manutenção de sites.
-Somos uma empresa comprometida em criar soluções para o desenvolvimento da
-marca de nossos clientes, destacando-a perante aos concorrentes do seu seguimento.
+                  <p >Nosso diferencial, está na nossa capacidade criativa para construção de campanhas publicitárias, gerenciamento de redes sociais, manutenção de sites e criação de soluções digitais eficientes.
+Somos uma equipe comprometida em criar soluções para o desenvolvimento da
+marca de nossos clientes, destacando-a no seu seguimento.
 </p>
 <br>
      </div>
@@ -19,8 +18,8 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                           Design Criativo
                         </h3>
                         <p class="feature-box__text">
-                          Criação de marca e identidade visual, identidade visual, papelaria, manipulação de imagem, edição de vídeos, gifs, postagens em geral, UX e UI Design, web design e video e motion design.
-                        </p>
+                          Criação de marca, identidade visual, papelaria, manipulação de imagem, edição de vídeos, gifs, postagens em geral, UX e UI Design, web design e video.
+                        </p><br>
                     </div>
               </div>
               <div class="col-md-4 col-sm-12 bottom-space">
@@ -37,7 +36,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         <i class="fa fa-lightbulb-o fa-5x fa-icon-image" ></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Social Media</h3>
                         <p class="feature-box__text">
-                          Planejamento de de marketing, gerenciamento de redes sociais, criação de postagens, redação e direção de arte, marketing orgânico.
+                          Planejamento de marketing digital, gerenciamento de redes sociais, criação de postagens, redação e direção de arte, marketing orgânico.
                         </p> <br>
                     </div>
               </div>
@@ -50,7 +49,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                         <i class="fa fa-bullhorn fa-5x fa-icon-image" ></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Campanhas Publicitárias</h3>
                         <p class="feature-box__text">
-                          Planejamento e execução de campanhas publicitárias eficiêntes aprovadas pelo cliente e com analise de metricas e insight para novas campanhas.
+                          Planejamento e execução de campanhas publicitárias eficiêntes aprovadas pelo cliente com analise de metricas e insight para novas campanhas.
                         </p><br>
                     </div>
               </div>
@@ -110,7 +109,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
               <div class="folded-corner service_tab_1">
                 <div class="text">
                   <i class="fa fa-image fa-5x fa-icon-image"></i>
-                        <h3 class="item-title"> Desing</h3>
+                        <h3 class="item-title"> Design</h3>
                   <p>
                     Illustrações de diversas vertentes, do design tradicional de marcas até illustrações em aquarela. 
                   </p>
@@ -123,7 +122,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                   <i class="fa fa-code fa-5x fa-icon-image" ></i>
                       <h3 class="item-title"> Aplicativo</h3>
                     <p>
-                      Desenvolvimento de aplicativos móveis seguro, com estrutura sólida, alta performace e alta disponibilidade. 
+                      Desenvolvimento de aplicativos móveis seguros, com estrutura sólida, alta performace e alta disponibilidade. 
                   </p>
                 </div>
               </div>
@@ -179,7 +178,7 @@ marca de nossos clientes, destacando-a perante aos concorrentes do seu seguiment
                   <i class="fa fa-user-o fa-5x fa-icon-image"></i>
                       <h3 class="item-title"> Analista de Redes</h3>
                   <p>
-                   Pacores de gerenciamento de Redes Sociais para você parar de se preocupar com sua comunicação digital e se importar com o que realmente importa, o seu negócio!
+                   Pacotes de gerenciamento de Redes Sociais para você parar de se preocupar com sua comunicação digital e se importar com o que realmente importa, o seu negócio!
                   </p>
                 </div>
               </div>
