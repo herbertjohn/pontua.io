@@ -97,7 +97,7 @@
 
               <div>
                 <i class="fa fa-phone"></i>
-                <p>+55 65 9.8425-8904</p>
+                <p>+55 65 9.8401-6520</p>
               </div>
             </div>
 
@@ -105,7 +105,7 @@
 
               <a href="https://www.facebook.com/pontuadigital" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="https://www.instagram.com/pontuadigital" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="https://api.whatsapp.com/send?phone=5565984258904" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=5565984016520" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
             </div>
 
           </div>

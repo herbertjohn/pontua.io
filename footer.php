@@ -42,7 +42,7 @@
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
               Atendimento Online!<br>
               <br>
-             <i class="fa fa-phone" aria-hidden="true"></i>   (65) 9.8425-8904<br><br>
+             <i class="fa fa-phone" aria-hidden="true"></i>   (65) 9.8401-6520<br><br>
              <i class="fa fa-envelope" aria-hidden="true"></i>   agenciapontua@gmail.com<br>
             </p>
 
@@ -52,7 +52,7 @@
             <h3>Sobre nós</h3>
             <p>Agência de comunicação dinâmica e focada nos meios digitais, equipe interdisciplinar sempre acompanhando as tendências para oferecer satisfação e segurança para nossos clientes.</p>
             <div class="social-links mt-3">
-              <a href="https://api.whatsapp.com/send?phone=5565984258904" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=5565984016520" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
               <a href="https://facebook.com/pontuadigital" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="https://instagram.com/pontuadigital" class="instagram"><i class="bx bxl-instagram"></i></a>
             </div>

@@ -22,7 +22,7 @@
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bx bx-phone-call"></i>
-                  <h3>(65) 9.8425-8904</h3>
+                  <h3>(65) 9.8401-6520</h3>
                 </div>
               </div>
             </div>

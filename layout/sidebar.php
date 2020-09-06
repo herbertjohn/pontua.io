@@ -126,10 +126,7 @@
                   <h4>
                     <a href="post.php?postid=<?=$view_post_id_popular ?>"style="color: #32627b"><?php echo $view_post_title_popular; ?></a>
                   </h4>
-              <time>  
-                <i class="icofont-wall-clock"></i> 
-                  <?php echo $view_post_date; ?>
-              </time>
+
                 </div>
    </div><!-- End sidebar recent posts-->
 </div>
