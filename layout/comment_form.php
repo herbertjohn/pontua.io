@@ -13,14 +13,14 @@
 
         $sql_add_comment = "INSERT INTO comments(postid, comm_autor, comm_email, comm_text, comm_status,comm_date) VALUES('$add_comm_posid', '$add_comm_autor', '$add_comm_email', '$add_comm_text', '0', '$current_date' )";
         $result_sql_add_comment= mysqli_query($dbconnection, $sql_add_comment);
-        echo "testiram";
+        echo "Comentário ";
         if (!$sql_add_comment)
                 {
                   die("Error description:" . mysqli_error());
                 }
                 else
                 {
-                  echo "Data added successfully";
+                  echo "adicionado com sucesso!";
                   header("Location: " . $_SERVER['REQUEST_URI']);
                 }
       }
@@ -55,8 +55,7 @@
                  ?>
                  <p class="lead">
                    <img src="admin/images/users/<?php echo $success_login_image_admin; ?>" class="zoom3" alt="User Image" width="50" align="left" hspace="5">
-                      <a href="#"><?php echo $success_login_name_admin; ?></a> <br>Web developer <a href="#">VirtuaPHP</a>
-                    
+                      <a href="#"><?php echo $success_login_name_admin; ?></a> <br>
                   </p>
                 
                 <input type="hidden" class="form-control" id="comm_autor" name="comm_autor" value="<?php echo $success_login_id; ?>" required="">
