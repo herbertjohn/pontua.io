@@ -48,7 +48,7 @@
         <div class="col-sm">
             <div class="teams-item-box">
                 <div class="teams-item">
-                    <div class="profile-image"><img src="https://instagram.fcgb1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/46348271_530875530750416_8908334953037561856_n.jpg?_nc_ht=instagram.fcgb1-1.fna.fbcdn.net&_nc_ohc=1-VsQzjVDAUAX9JqquC&oh=f119b7efd5b18534e90eb73ee7a5d7f9&oe=5F51C510" alt="André_Mendes" /></div>
+                    <div class="profile-image"><img src="https://instagram.fcgb1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/46348271_530875530750416_8908334953037561856_n.jpg?_nc_ht=instagram.fcgb1-1.fna.fbcdn.net&_nc_ohc=60fAk4a169sAX-sKZpB&oh=310aa49e507335e00c1ebcadebba7455&oe=5F852F90" /></div>
                     <div>
                       <h3>André Mendes</h3>
                       <h5>Desenvolvedor</h5>
