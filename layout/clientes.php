@@ -9,8 +9,15 @@
           <div class="col-lg-3 col-md-4 col-xs-6">
 
             <div class="supporter-logo"><a href="http://curadoriapecuaria.com.br">
-              <img src="assets/img/clientes/logo_curadoria_pecuaria.png" class="img-fluid" alt="Curadoria Pecuária">
-            </div></a>
+              <img src="assets/img/clientes/logo_curadoria_pecuaria.png" class="img-fluid" alt="Curadoria Pecuária"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+
+            <div class="supporter-logo"><a href="layout/clientes/e-tech_e-comerce">
+              <img src="assets/img/clientes/logo_e-tech.png" class="img-fluid" alt="Curadoria Pecuária"></a>
+            </div>
           </div>
 
 

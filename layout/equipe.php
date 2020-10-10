@@ -11,7 +11,7 @@
           <div class="col-sm">
             <div class="teams-item-box">
                 <div class="teams-item">
-                    <div class="profile-image"><img src="https://instagram.fcgb1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/117224750_2791094414469970_7841802869415118160_n.jpg?_nc_ht=instagram.fcgb1-1.fna.fbcdn.net&_nc_ohc=syx0LZITOFsAX_N8e7x&oh=ba509c15be8f0ead4f745ea85200cae4&oe=5F64CDE3" alt="Carol_Prado" /></div>
+                    <div class="profile-image"><img src="assets/img/team/carol_prado.jpeg" alt="Carol_Prado" /></div>
                     <div>
                       <h3>Carol Prado</h3>
                       <h5>Atendimento</h5>
@@ -28,7 +28,7 @@
           <div class="col-sm">
               <div class="teams-item-box">
                   <div class="teams-item">
-                      <div class="profile-image"><img src="https://instagram.fcgb1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/101019994_1099897337052331_8407284764070903808_n.jpg?_nc_ht=instagram.fcgb1-1.fna.fbcdn.net&_nc_ohc=VXurJnLgNx0AX8ZxyVg&oh=bbb147d586a47f6fbec37fa5b5527fdd&oe=5F61610B" alt="John_Herbert" /></div>
+                      <div class="profile-image"><img src="assets/img/team/john_herbert.jpeg" /></div>
                       <div>
                         <h3>John Herbert</h3>
                         <h5>Marketing</h5>
@@ -48,7 +48,7 @@
         <div class="col-sm">
             <div class="teams-item-box">
                 <div class="teams-item">
-                    <div class="profile-image"><img src="https://instagram.fcgb1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/46348271_530875530750416_8908334953037561856_n.jpg?_nc_ht=instagram.fcgb1-1.fna.fbcdn.net&_nc_ohc=60fAk4a169sAX-sKZpB&oh=310aa49e507335e00c1ebcadebba7455&oe=5F852F90" /></div>
+                    <div class="profile-image"><img src="assets/img/team/andre_mendes.jpeg" /></div>
                     <div>
                       <h3>André Mendes</h3>
                       <h5>Desenvolvedor</h5>
